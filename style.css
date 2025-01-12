@@ -2,14 +2,14 @@
 
 * {
   font-family: 'Poppins', Tahoma;
+  scroll-behavior: smooth;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   padding: 7rem 3rem;
 }
@@ -123,11 +123,7 @@ header nav ul li a {
 }
 
 h3 {
-  margin-bottom: 7.5px;
-}
-
-p {
-  margin: 7.5px 0 30px 0;
+  margin-bottom: 25px 0 5px 0;
 }
 
 details h4 {
@@ -145,7 +141,7 @@ details h4 {
   justify-content:space-evenly;
   flex-wrap: wrap;
   display: flex;
-  gap: 30px;
+  gap: 17px;
 }
 
 .card {
@@ -154,12 +150,13 @@ details h4 {
   border-radius: 15px;
   text-align: center;
   padding: 25px;
-  height: 350px;
+  height: 470px;
   color: white;
-  width: 680px;
+  width: 300px;
 }
 
 .card p {
+  margin: 7.5px 0 30px 0;
   text-align: justify;
   text-justify: auto;
 }
@@ -180,7 +177,7 @@ details h4 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .car-container {
@@ -190,9 +187,9 @@ details h4 {
   text-align: justify;
   text-justify: auto; 
   padding: 20px;
-  height: 570px;
+  height: 560px;
   color: white;
-  width: 470px;
+  width: 400px;
 }
 
 .car-container img {
@@ -206,14 +203,14 @@ details h4 {
 }
 
 footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 14px;
   border-top: 1px solid #e9ecef;
-  margin: 0 auto;
+  background-color: black;
+  text-align: center;
   font-weight: 600;
+  font-size: 14px;
+  padding: 10px 0;
+  margin: 0 auto;
+  color: white;
 }
 
 footer p {
